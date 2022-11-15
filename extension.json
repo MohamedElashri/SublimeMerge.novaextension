@@ -1,0 +1,24 @@
+{
+  "identifier": "melashri.net.submerge",
+  "name": "SublimeMerge",
+  "organization": "melashri",
+  "description": "Open the current workspace with the Sublime Merge Git client",
+  "version": "1.0",
+  "categories": ["commands"],
+  "repository": "https://github.com/MohamedElashri/SublimeMerge.novaextension",
+  "bugs": "https://github.com/MohamedElashri/SublimeMerge.novaextension/issues",
+  "license": "MIT",
+  "main": "main.js",
+  "entitlements": {
+    "process": true,
+    "filesystem": "readwrite"
+  },
+  "commands": {
+    "extensions": [
+      {
+        "title": "Open Workspace in Sublime Merge",
+        "command": "submerge.submerge"
+      }
+    ]
+  }
+}
